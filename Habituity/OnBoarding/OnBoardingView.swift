@@ -15,7 +15,7 @@ struct OnboardingView: View {
     let onboardingData = [
         OnboardingPage(
             title: "Welcome to Habituity",
-            description: "Discover new features and enhance your experience.",
+            description: "Discover your potential today!",
             imageName: "star"
         ),
         OnboardingPage(
@@ -56,7 +56,6 @@ struct OnboardingView: View {
                     if currentPage < onboardingData.count - 1 {
                         currentPage += 1
                     } else {
-                        // Dismiss onboarding or navigate to main app view
                         print("Onboarding complete!")
                     }
                 }
