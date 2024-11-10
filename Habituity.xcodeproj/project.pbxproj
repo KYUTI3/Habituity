@@ -15,6 +15,7 @@
 		433A4F9B2CE0EE0500137266 /* HabituityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433A4F9A2CE0EE0500137266 /* HabituityUITests.swift */; };
 		433A4F9D2CE0EE0500137266 /* HabituityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433A4F9C2CE0EE0500137266 /* HabituityUITestsLaunchTests.swift */; };
 		433A4FAE2CE1179300137266 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433A4FAD2CE1179300137266 /* OnBoardingView.swift */; };
+		433A4FB22CE1283D00137266 /* ARSquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433A4FB12CE1283D00137266 /* ARSquareViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		433A4F9A2CE0EE0500137266 /* HabituityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabituityUITests.swift; sourceTree = "<group>"; };
 		433A4F9C2CE0EE0500137266 /* HabituityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabituityUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		433A4FAD2CE1179300137266 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		433A4FB12CE1283D00137266 /* ARSquareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSquareViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		433A4F7D2CE0EDFD00137266 /* Habituity */ = {
 			isa = PBXGroup;
 			children = (
+				433A4FB02CE1281400137266 /* ARSquareController */,
 				433A4FAC2CE1170200137266 /* OnBoarding */,
 				433A4F7E2CE0EDFD00137266 /* HabituityApp.swift */,
 				433A4F802CE0EDFD00137266 /* ContentView.swift */,
@@ -138,6 +141,14 @@
 				433A4FAD2CE1179300137266 /* OnBoardingView.swift */,
 			);
 			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		433A4FB02CE1281400137266 /* ARSquareController */ = {
+			isa = PBXGroup;
+			children = (
+				433A4FB12CE1283D00137266 /* ARSquareViewController.swift */,
+			);
+			path = ARSquareController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 			files = (
 				433A4FAE2CE1179300137266 /* OnBoardingView.swift in Sources */,
 				433A4F812CE0EDFD00137266 /* ContentView.swift in Sources */,
+				433A4FB22CE1283D00137266 /* ARSquareViewController.swift in Sources */,
 				433A4F7F2CE0EDFD00137266 /* HabituityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
