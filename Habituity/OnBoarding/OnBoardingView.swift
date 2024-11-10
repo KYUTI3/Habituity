@@ -19,20 +19,19 @@ struct OnboardingView: View {
             imageName: "star"
         ),
         OnboardingPage(
-            title: "Stay Organized",
-            description: "Organize your tasks efficiently with our powerful tools.",
+            title: "",
+            description: "",
             imageName: "calendar"
         ),
         OnboardingPage(
-            title: "Get Started",
-            description: "Let’s set up your account to begin the journey!",
+            title: "",
+            description: "",
             imageName: "gear"
         )
     ]
     
     var body: some View {
         VStack {
-            // TabView without PageTabViewStyle (not available on macOS)
             TabView(selection: $currentPage) {
                 ForEach(0..<onboardingData.count, id: \.self) { index in
                     OnboardingPageView(page: onboardingData[index])
